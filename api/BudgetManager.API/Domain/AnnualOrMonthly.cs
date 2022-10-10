@@ -1,4 +1,4 @@
-namespace BudgetManager.Models;
+namespace BudgetManager.Domain;
 
 public enum AnnualOrMonthly
 {

@@ -1,5 +1,5 @@
 using BudgetManager.Infrastructure.Interfaces;
-using BudgetManager.Models;
+using BudgetManager.Domain;
 using ErrorOr;
 
 public class BudgetRepository : IBudgetRepository

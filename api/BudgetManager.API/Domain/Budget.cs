@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using ErrorOr;
 
-namespace BudgetManager.Models;
+namespace BudgetManager.Domain;
 
 public record Budget
 {
@@ -41,8 +41,6 @@ public record Budget
     private static Budget Plan(Budget budget)
     {
         var currentDate = DateTime.Now;
-
-
 
         return budget;
     }

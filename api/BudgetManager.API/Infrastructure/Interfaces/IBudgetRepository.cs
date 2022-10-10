@@ -1,4 +1,4 @@
-using BudgetManager.Models;
+using BudgetManager.Domain;
 using ErrorOr;
 
 namespace BudgetManager.Infrastructure.Interfaces;
